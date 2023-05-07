@@ -1,0 +1,74 @@
+<!-- View: É a camada de visualização, responsável por apresentar a interface do usuário. Nesta camada, geralmente são criados os arquivos HTML, CSS e JavaScript que definem a aparência e a interatividade do aplicativo. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+<style>
+
+html, body {
+    height: 100%;
+} 
+
+body{
+    background-color:#E9EAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: center;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    font-size: 15px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input{
+    cursor: text;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="formulario">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <div class="formulario">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+            </div>
+            <div class="formulario">
+                <label for="password">Senha:</label>
+                <input type="datetime-local" id="meeting-time"
+                name="meeting-time" value="2018-06-12T19:30">
+            </div>
+            <button type="submit">Registrar</button>
+        </div>
+      
+
+    </div>
+  </form>
+</body>
+</html>
