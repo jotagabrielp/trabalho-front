@@ -1,1 +1,0 @@
-const ModelProduto = require ('../models/Telefone')

@@ -1,0 +1,36 @@
+
+html, body {
+    height: 100%;
+} 
+
+body{
+    background-color:#E9EAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    font-size: 15px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input{
+    cursor: text;
+}
